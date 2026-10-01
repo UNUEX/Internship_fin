@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма оплаты</title>
+</head>
+<body>
+    <form>
+        <label for="cardNumber">Номер карты</label>
+        <input id="cardNumber" type="text" autocomplete="cc-number" placeholder="0000 0000 0000 0000" maxlength="19">
+   
+        <label for="expiredate">Срок действия</label>
+        <input id="expiredate" type="text" autocomplete="cc-exp" placeholder="MM/YY" maxlength="5">
+    
+        <label for="cvv">CVV</label>
+        <input id="cvv" type="text" autocomplete="cc-csc" placeholder="000" maxlength="3">
+    
+        <label for="nameholder">Имя держателя</label>
+        <input id="nameholder" type="text" autocomplete="cc-name" placeholder="ALEMKHAN ALEMKHAN"">
+    <button>Оплатить</button>
+    </form>
+    <script src="script.js"></script>
+    
+</body>
+</html>
